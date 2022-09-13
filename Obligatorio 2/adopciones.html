@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros disponibles para adoptar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Lato:wght@400;900&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="contenedor">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" width="10%" alt="Logo">
+            </a>
+
+            <div class="menu">
+                <a href="index.html" >Inicio</a>
+                <a href="adopciones.html" class="activo">Adopciones disponibles</a>
+                <a href="#">Colaboraciones</a>
+                <a href="#">Perros contentos</a>
+                <a href="#"><img src="img/lupa.svg" width="3%" alt=""></a>
+                <a href="#"><img src="img/contacto.png" width="3%" alt=""></a>
+                <a href="#"><img src="img/carrito.svg" width="3%" alt=""></a>
+
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="filtros">
+            <h2> FILTROS</h2>
+            <div>
+                <fieldset>
+                    <legend>Buscar por Raza</legend>
+                    <select name="Raza" id="raza">
+                            <option value="todos">Todos</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Buscar por ubicación</legend>
+               <input type="text" name="ubicacion" id="buscar">
+                </fieldset>
+
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Buscar por Vacunas</legend>
+                    <select name="vacunas" id="vacunas">
+                        <option value="todos">Todos</option>
+                        </select>
+                </fieldset>
+            </div>
+         
+        </div>
+    </section>
+
+    <section class="perros">
+        <div class="tres">
+        <h1>PERROS DISPONIBLES EN ADOPCIÓN</h1>
+        <a id="dog1"><img src="img/perrito1.jpg" alt=""></a>
+        <a id="dog2"><img src="img/perrito2.jpg" alt=""> </a>
+        <a id="dog3"> <img src="img/perrito3.jpg" alt=""></a>
+    </div>
+    </section>
+
+    <section class="perros">
+        <div class="ocho">
+        <a id="dog4"><img></a>
+        <a id="dog5"><img></a>
+        <a id="dog6"><img></a>
+        <a id="dog7"><img></a>
+        <a id="dog8"><img></a>
+        <a id="dog9"><img> </a>
+        <a id="dog10"><img></a>
+        <a id="dog11"><img></a>
+    </div>
+    </section>
+
+    <footer>
+        <img src="img/logo.png" width="5%" id="logofoot" alt="">
+
+        <p>Adopta para un ladrido feliz</p>
+        <div>
+            <a href=""><img src="img/imgfb.png" alt=""></a>
+            <a href=""><img src="img/imgin.png" alt=""></a>
+            <a href=""><img src="img/imgln.png" alt=""></a>
+        </div>
+    </footer>
+
+
+    <script src="perritos/perritos.js"></script>
+    <script src="adopciones.js"></script>
+
+</body>
+
+</html>

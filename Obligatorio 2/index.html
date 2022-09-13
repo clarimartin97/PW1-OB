@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obligatorio 2 - Clara Martín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Lato:wght@400;900&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="contenedor">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" width="10%" alt="Logo">
+                </a>
+
+                <div class="menu">
+                    <a href="index.html" class="activo">Inicio</a>
+                    <a href="adopciones.html">Adopciones disponibles</a>
+                    <a href="#">Colaboraciones</a>
+                    <a href="#">Perros contentos</a>
+                    <a href="#"><img src="img/lupa.svg" width="3%" alt=""></a>
+                    <a href="#"><img src="img/contacto.png" width="3%" alt=""></a>
+                    <a href="#"><img src="img/carrito.svg" width="3%" alt=""></a>
+
+                </div>
+            </nav>
+        </header>
+
+        <section class="middlebanner">
+            <div>
+                <h1></h1>
+                <p id="intro">Adopet es, desde 1996, una organización uruguaya especializada en la ayuda a perros
+                    abandonados y/o maltratados; una organización totalmente independiente que no recibe subvenciones de
+                    organismos oficiales, empresas ni partidos políticos. Practicamos el sacrificio cero, denunciamos
+                    judicialmente a los maltratadores y buscamos adoptantes para todos los animales que acogemos.</p>
+                <a href="#">Puedes hacer mucho para ayudarnos</a>
+            </div>
+        </section>
+
+    </div>
+    <div id="animacion">
+        <article id="uno">
+            <h4 id="adop"></h4>
+            <p>Animales adoptados hasta hoy</p>
+            <a href="#">Averiguar</a>
+        </article>
+        <article id="dos">
+            <h4 id="dona"></h4>
+            <p>En donaciones</p>
+            <a href="#">Averiguar</a>
+        </article>
+        <article id="tres">
+            <h4 id="fam">0</h4>
+            <p>Familias adoptivas</p>
+            <a href="#">Averiguar</a>
+        </article>
+    </div>
+
+    <div>
+        <h1></h1>
+    </div>
+
+
+    <div id="ampliacion" class="modal">
+        <p id="cerrar" class="close">Cerrar</p>
+        <div class="modal-articulo"></div>
+    </div>
+
+    <div class="contenedor-grid contenedor">
+        <div id="box1">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+        <div id="box3">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+        <div id="box4">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+        <div id="box5">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+        <div id="box6">
+            <div class="botlef">
+                <h4></h4>
+                <p></p>
+                <a href="javascript:;">Ver más</a>
+            </div>
+        </div>
+
+    </div>
+    <section class="productos">
+        <h2>Árticulos relevantes</h2>
+        <article id="box7">
+            <img>
+            <h5></h5>
+            <h4></h4>
+            <p></p>
+            <a href=""></a>
+        </article>
+        <article id="box8">
+            <img>
+            <h5></h5>
+            <h4></h4>
+            <p></p>
+            <a href=""></a>
+        </article>
+        <article id="box9">
+            <img>
+            <h5></h5>
+            <h4></h4>
+            <p></p>
+            <a href=""></a>
+        </article>
+    </section>
+
+
+
+    <div class="contenedor formul">
+        <h1>Complete</h1>
+
+        <form action="......php" method="post" id="form1">
+            <h3></h3>
+            <div>
+                <fieldset class="primerapagina">
+                    <label for="nya">Nombre y apellido</label>
+                    <input type="text" name="nombreyapellido" id="nya" placeholder="Escriba su nombre y apellido..."
+                        required>
+                    <div>
+                        <label for="e-mail">E-mail</label>
+                        <input type="e-mail" name="e-mail" id="e-mail" placeholder="Escriba su e-mail..." required>
+                    </div>
+                    <div>
+                        <label for="cedula">Cédula</label>
+                        <input type="number" name="cedula" id="cedula" placeholder="Escriba su cédula..." onkeypress="if(this.value.length==9) return false;" required>
+                
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset class="primerapagina">
+                    <legend>Te interesaría donar o adoptar?</legend>
+                    <select name="mascotas" id="mascotas">
+                        <option value="donar o adoptar" disabled selected></option>
+                        <option value="Si">Donar</option>
+                        <option value="No">Adoptar</option>
+                    </select>
+
+
+                </fieldset>
+                <fieldset class="primerapagina tienesmascotas">
+                    <legend>Tienes mascotas?</legend>
+                    <input type="radio" name="mascotas" class="tienesmascotas">
+                    <label for="si">Si</label>
+                    <input type="radio" name="mascotas"  class="tienesmascotas">
+                    <label for="no">No</label>
+                </fieldset>
+            </div>
+            <div class="izquierda">
+                <legend>Como nos encontraste?</legend>
+                <textarea name="encontrar" id="encontraste" cols="30" rows="3"></textarea>
+                <div>
+                    <input type="checkbox" name="terminosycondiciones" id="tya">
+
+                    <label for="">Acepto términos y condiciones</label>
+
+                    <button type="submit">Enviar</button>
+                </div>
+                <div>
+                </div>
+            </div>
+        </form>
+
+        <p id="mensaje"></p>
+    </div>
+    <footer>
+        <img src="img/logo.png" width="5%" id="logofoot" alt="">
+
+        <p>Adopta para un ladrido feliz</p>
+        <div>
+            <a href=""><img src="img/imgfb.png" alt=""></a>
+            <a href=""><img src="img/imgin.png" alt=""></a>
+            <a href=""><img src="img/imgln.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="articulos/articulos.js"></script>
+    <script src="perritos/perritos.js"></script>
+    <script src="codigo.js"></script>
+</body>
+
+</html>

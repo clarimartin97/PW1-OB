@@ -1,0 +1,584 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-image: url(img/happydog1.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    justify-content: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.23);
+    margin-bottom: 1.5em;
+    animation: fondo 20s 3s infinite;
+}
+
+
+@keyframes fondo {
+    0% {
+        background-image: url(img/happydog1.jpg);
+    }
+
+    20% {
+        background-image: url(img/happydog3.jpg);
+    }
+
+    40% {
+        background-image: url(img/happydog4.jpg);
+    }
+
+    60% {
+        background-image: url(img/happydog5.jpg);
+    }
+
+    80% {
+        background-image: url(img/happydog2.jpg);
+    }
+
+    100% {
+        background-image: url(img/happydogs7.jfif);
+    }
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    padding-top: 0.7em;
+    width: 100%;
+    text-align: end;
+}
+
+.activo{
+    border-bottom: #E5DCC3 solid 3px;}
+    
+
+.menu a {
+    font-size: 1.2em;
+    padding: 0px 0.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.middlebanner {
+    display: flex;
+}
+
+.middlebanner h1 {
+    opacity: 0.5;
+    font-size: 2em;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.middlebanner div {
+    position: absolute;
+    top: 20%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0% 25% 0% 25%;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
+
+#intro {
+    line-break: anywhere;
+    line-height: 1.2em;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+
+.middlebanner a {
+    background-color: #9A9483;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.3em;
+}
+
+#animacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-top: -60px;
+
+}
+
+#animacion article {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 2px rgba(247, 243, 243, 0.2);
+    padding: 2em;
+}
+
+#animacion article a {
+    color: #131616;
+    font-weight: bolder;
+    background-color: white;
+    padding: 1em;
+    border-radius: 71% / 68%;
+    ;
+    text-decoration: none;
+    margin-top: 0.8em;
+    width: 30%;
+
+}
+
+#animacion p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+
+}
+
+#adop,
+#dona,
+#fam {
+    font-size: 3em;
+    text-align: center;
+}
+
+#uno,
+#dos,
+#tres {
+    background-color: #C7BEA2;
+    font-weight: normal;
+}
+
+
+.contenedor-grid {
+    max-width: 1100px;
+    margin-top: 2em;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    gap: 9px 9px;
+    margin-bottom: 2em;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.contenedor-grid>div {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botlef>a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+}
+
+.botlef:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+
+}
+
+#box1 {
+    grid-row: span 2;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
+
+#box2 {
+    grid-row: span 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
+
+#box3,
+#box4,
+#box5,
+#box6 {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
+
+
+.productos {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productos article {
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin-bottom: 1.3em;
+}
+
+.productos h2 {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.productos img {
+    width: 100%;
+}
+
+.productos h5 {
+    font-style: italic;
+    color: #AAA492;
+    font-size: 0.5em;
+}
+
+.productos h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.productos p {
+    font-size: 0.8em;
+    line-break: anywhere;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+.productos a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /*  sit on top */
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(0, 0, 0);
+}
+
+.modal-articulo {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.close {
+    color: #aaaaaa;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.modal-img {
+    width: 30%;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formul h1 {
+    font-size: 2em;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #C7BEA2;
+    margin-bottom: 1em;
+}
+
+#form1 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+#cedula::-webkit-outer-spin-button,
+#cedula::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.primerapagina {
+    border: none;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
+
+.primerapagina input {
+    border: none;
+    width: 50%;
+    background-color: #E5DCC3;
+}
+
+.tienesmascotas .donaroadoptar {
+    display: inline-flex;
+    align-items: center;
+}
+
+.izquierda {
+    border: none;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
+
+select#mascotas {
+    background-color: #C7BEA2;
+
+}
+
+#encontraste {
+    border: 3px solid #E5DCC3;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
+
+button {
+    background: #C7BEA2;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    margin-left: 0.5em;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mensaje {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+footer {
+    margin: auto;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#logofoot {
+    position: absolute;
+    left: 10px;
+    margin: auto;
+}
+
+footer p {
+    color: #C7BEA2;
+    margin: auto;
+    font-style: italic;
+    font-size: 0.6em;
+
+}
+
+footer div {
+    position: absolute;
+    right: 10px;
+    margin: auto;
+}
+.filtros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.filtros> h2{
+    width: 100%;
+    font-size: 2.5em;
+    text-align-last: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.filtros>div{
+    width: 30%;
+    flex-wrap: wrap;
+    color: #C7BEA2;
+}
+div>fieldset{
+    border: none;
+}
+.perros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+}
+
+.tres h1{
+    width: 100%;
+align-items: center;
+flex-wrap: wrap;
+text-align-last: center;
+margin: 1em;
+}
+.tres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tres img {
+    width: 100%;
+}
+
+#dog1, #dog2, #dog3{
+    width: 30%;
+    justify-content: space-between;
+}
+
+.ocho {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.ocho img {
+    width: 100%;
+}
+#dog4, #dog5, #dog6, #dog7, #dog8, #dog9, #dog10, #dog11{
+    width: 25%;
+}
+
+
+.cajagrande{
+    display: flex;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-sizing: border-box;
+}
+
+#fotogrande{
+    width: 90%;
+}
+
+.informacion h3{
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+}
+.informacion{
+    margin: 2em;
+    text-align: justify;
+
+}
+
+#fotochica1, #fotochica2, #fotochica3{
+    width: 30%;}
+
+aside img{
+    width: 100%;
+}
+aside{
+    flex-direction: column;
+    width: 90%;
+}
+
+#slider > h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #888;
+    align-content: center;
+}
+ 
+#slider {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    margin: 1.5em;
+}
+
+#slider>div{
+    display: flex;
+}
+
+#slider img {
+    width: 100%;
+} 
+
+#flechaAtras>img{
+    width: 15%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#flechaAdelante>img{
+    width: 15%; 
+    transform: rotateZ(180deg) ;
+    margin-left: 75em;
+    margin-top: 1em;
+}
+ 
